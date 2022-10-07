@@ -14,7 +14,8 @@ model Game {
   id        String @id
   title     String
   bannerURL String
-  ads       Ad[]
+
+  ads Ad[]
 }
 
 model Ad {
